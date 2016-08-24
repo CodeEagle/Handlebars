@@ -186,7 +186,7 @@
 		16C2A6601D6DA36500C0A1A8 /* HBTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C2A5B11D6DA36500C0A1A8 /* HBTemplate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		16C2A6611D6DA36500C0A1A8 /* HBTemplate_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C2A5B21D6DA36500C0A1A8 /* HBTemplate_Private.h */; };
 		16C2A6621D6DA36500C0A1A8 /* HBTemplate_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C2A5B21D6DA36500C0A1A8 /* HBTemplate_Private.h */; };
-		16C2A6671D6DA92100C0A1A8 /* Handlebars.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C2A6641D6DA92100C0A1A8 /* Handlebars.h */; };
+		16C2A6671D6DA92100C0A1A8 /* Handlebars.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C2A6641D6DA92100C0A1A8 /* Handlebars.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		16C2A6841D6DA9F400C0A1A8 /* HBTestAccessToObjectProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C2A66F1D6DA9F400C0A1A8 /* HBTestAccessToObjectProperties.m */; };
 		16C2A6851D6DA9F400C0A1A8 /* HBTestAccessToObjectProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C2A66F1D6DA9F400C0A1A8 /* HBTestAccessToObjectProperties.m */; };
 		16C2A6861D6DA9F400C0A1A8 /* HBTestBuiltinBlockHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C2A6701D6DA9F400C0A1A8 /* HBTestBuiltinBlockHelpers.m */; };
@@ -1292,6 +1292,7 @@
 				16C2A52D1D6DA1E000C0A1A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16C2A52E1D6DA1E000C0A1A8 /* Build configuration list for PBXNativeTarget "HandlebarsTests" */ = {
 			isa = XCConfigurationList;
@@ -1300,6 +1301,7 @@
 				16C2A5301D6DA1E000C0A1A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16C2A5471D6DA2EF00C0A1A8 /* Build configuration list for PBXNativeTarget "HandlebarsOSX" */ = {
 			isa = XCConfigurationList;
@@ -1308,6 +1310,7 @@
 				16C2A5491D6DA2EF00C0A1A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16C2A54A1D6DA2EF00C0A1A8 /* Build configuration list for PBXNativeTarget "HandlebarsOSXTests" */ = {
 			isa = XCConfigurationList;
@@ -1316,6 +1319,7 @@
 				16C2A54C1D6DA2EF00C0A1A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
